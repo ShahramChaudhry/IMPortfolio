@@ -1,0 +1,76 @@
+.top-button1 {
+    position: fixed;
+    top: 10px;
+    left: 20px; 
+    z-index: 1000;
+}
+
+.top-button2 {
+    position: fixed;
+    top: 10px;
+    right: 20px; 
+    z-index: 1000;
+}
+
+.back-button,
+.front-button {
+    font-size: 2em;
+    line-height: 2.5em; 
+    color: grey;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    cursor: none;
+
+}
+
+.content {
+    z-index: 0;
+    position: absolute;
+    text-align: right;
+    color: white;
+    display: flex;
+    align-items: center;
+    top: 14%;
+ 
+}
+
+.image-container {
+    width: 50%; 
+    text-align: left;
+    margin-left: 100px; 
+    z-index:1;
+}
+
+.image-container img {
+    width: 80%;
+    height: auto;
+}
+
+.textbox {
+    z-index: 1;
+    width: 50%; 
+    text-align: left;
+    padding-right: 100px;}
+
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    font-family: 'VT323', monospace;
+    color: black;
+}
+
+p {
+    font-size: 1.2em;
+    font-family: 'VT323', monospace;
+    color: black;
+}
